@@ -1,13 +1,150 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Beadtopia Marketing App</title>
-</head>
-<body>
-  <h1>Beadtopia Marketing App</h1>
-  <p>Beadtopia Marketing App is an internal tool used by Beadtopia to create, schedule, and review Pinterest Pins for our Etsy handmade jewelry and accessories shop.</p>
 
-  <p><a href="privacy-policy.html">Privacy Policy</a></p>
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: #fff8f1;
+      color: #4a3428;
+    }
+
+    .page {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      background:
+        radial-gradient(circle at top left, #ffe6d1 0, transparent 35%),
+        radial-gradient(circle at bottom right, #f7d7c4 0, transparent 35%),
+        #fff8f1;
+    }
+
+    .card {
+      max-width: 760px;
+      background: rgba(255, 255, 255, 0.86);
+      border: 1px solid #ead2c1;
+      border-radius: 28px;
+      padding: 48px;
+      box-shadow: 0 18px 45px rgba(100, 65, 45, 0.12);
+      text-align: center;
+    }
+
+    .brand {
+      font-size: 52px;
+      letter-spacing: 1px;
+      margin: 0;
+      color: #7b4a35;
+    }
+
+    .subtitle {
+      font-family: "Trebuchet MS", Arial, sans-serif;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-size: 13px;
+      color: #b17b62;
+      margin-top: 12px;
+      margin-bottom: 30px;
+    }
+
+    .description {
+      font-size: 19px;
+      line-height: 1.7;
+      max-width: 620px;
+      margin: 0 auto 34px;
+      color: #5a4033;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 28px;
+    }
+
+    a.button {
+      text-decoration: none;
+      padding: 14px 24px;
+      border-radius: 999px;
+      font-family: Arial, sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      transition: 0.2s ease;
+    }
+
+    .primary {
+      background: #c56f4d;
+      color: white;
+    }
+
+    .primary:hover {
+      background: #a85c3f;
+    }
+
+    .secondary {
+      border: 1px solid #c56f4d;
+      color: #9b543c;
+      background: #fffaf6;
+    }
+
+    .secondary:hover {
+      background: #f8e6dc;
+    }
+
+    .note {
+      margin-top: 36px;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      color: #8f7364;
+    }
+
+    .divider {
+      margin: 26px auto;
+      width: 90px;
+      height: 1px;
+      background: #d8b7a5;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+    <section class="card">
+      <h1 class="brand">Beadtopia</h1>
+      <div class="subtitle">Handmade Beaded Jewelry & Accessories</div>
+
+      <div class="divider"></div>
+
+      <p class="description">
+        Beadtopia creates romantic handmade beaded jewelry, earrings, bags, charms,
+        and accessories with a soft, feminine, gift-ready style.
+      </p>
+
+      <p class="description">
+        The Beadtopia Marketing App is an internal tool used to create, schedule,
+        and review Pinterest Pins for Beadtopia’s Etsy shop.
+      </p>
+
+      <div class="buttons">
+        <a class="button primary" href="https://www.etsy.com/shop/BeadtopiaStyle" target="_blank">
+          Visit Etsy Shop
+        </a>
+
+        <a class="button secondary" href="privacy-policy.html">
+          Privacy Policy
+        </a>
+      </div>
+
+      <p class="note">
+        Beadtopia Marketing App is used only for Beadtopia’s own Pinterest and Etsy product marketing.
+      </p>
+    </section>
+  </main>
 </body>
 </html>
