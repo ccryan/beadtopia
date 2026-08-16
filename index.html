@@ -97,6 +97,16 @@
       background: #f8e6dc;
     }
 
+    .paypal {
+      background: #ffc439;
+      color: #111;
+      border: 1px solid #e4aa20;
+    }
+
+    .paypal:hover {
+      background: #f2ba36;
+    }
+
     .note {
       margin-top: 36px;
       font-family: Arial, sans-serif;
@@ -132,8 +142,20 @@
       </p>
 
       <div class="buttons">
-        <a class="button primary" href="https://www.etsy.com/shop/BeadtopiaStyle" target="_blank">
+        <a class="button primary"
+           href="https://www.etsy.com/shop/BeadtopiaStyle"
+           target="_blank"
+           rel="noopener noreferrer">
           Visit Etsy Shop
+        </a>
+
+        <!-- Replace YOUR_PAYPAL_PAYMENT_LINK with the PayPal customer checkout URL
+             generated from your PayPal Business account. -->
+        <a class="button paypal"
+           href="YOUR_PAYPAL_PAYMENT_LINK"
+           target="_blank"
+           rel="noopener noreferrer">
+          Pay with PayPal
         </a>
 
         <a class="button secondary" href="privacy-policy.html">
